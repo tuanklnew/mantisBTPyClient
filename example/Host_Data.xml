@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT xmlns:rsd="urn:www.mcafee.com:foundstone:reportsectiondescription">
+<ReportInfo CreationDate="2018-01-09 11:07:34 UTC" ReportType="Network Inventory" />
+<Jobs JobID="460" ScanName="quetTT3_chieu_090118_1" ScanType="Internal" StartTime="2018-01-09 11:00:00 UTC" EndTime="2018-01-09 11:07:29 UTC" TestJob="0" />
+<HostData>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A80141E" IPAddress="10.128.20.30" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+<Service ServiceName="telnet">
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ Password required, but none set ]]></Banner>
+</Service>
+<Service ServiceName="ntp">
+<Port>123</Port>
+<Protocol>udp</Protocol>
+<Banner><![CDATA[ System Time (UTC): Tuesday, January 09, 2018  10:59:45 AM (-00:05:42)
+
+.system=&quot;cisco&quot;, leap=3, stratum=16, rootdelay=1.48,
+rootdispersion=11.80, peer=0, refid=10.128.29.22,
+reftime=0xDDEF211B.2B763DB6, poll=7, clock=0xDDFF1F21.75B809D1,
+phase=-0.052, freq=6.03, error=0.14
+. ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="2198" VulnName="Telnet Server Found">
+<Risk>0</Risk>
+<ServiceName>telnet</ServiceName>
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Description>A telnet server was found on the host.</Description></Vuln>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A80141E" IPAddress="10.128.20.30" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A80141B" IPAddress="10.128.20.27" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+<Service ServiceName="ntp">
+<Port>123</Port>
+<Protocol>udp</Protocol>
+<Banner><![CDATA[ System Time (UTC): Tuesday, January 09, 2018  10:59:45 AM (-00:05:42)
+
+..version=&quot;4&quot;, processor=&quot;unknown&quot;, system=&quot;UNIX&quot;, leap=3, stratum=16,
+precision=-17, rootdelay=0.000, rootdispersion=12282.029, peer=0,
+refid=INIT, reftime=0xDDF29C52.64E8A5A1, poll=6,
+clock=0xDDFF1F21.4154B352, state=4, offset=-0.092, frequency=-43.883,
+jitter=0.114, noise=0.039, stability=0.000
+. ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A80141B" IPAddress="10.128.20.27" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0129CD" IPAddress="10.1.41.205" OSName="Cisco 2960x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+<Service ServiceName="ntp">
+<Port>123</Port>
+<Protocol>udp</Protocol>
+<Banner><![CDATA[ System Time (UTC): Tuesday, January 09, 2018  11:16:09 AM (+00:10:41)
+
+.,version=&quot;4&quot;, processor=&quot;unknown&quot;, system=&quot;UNIX&quot;, leap=3, stratum=16,
+precision=-24, rootdelay=0.000, rootdispersion=759080.489, peer=0,
+refid=INIT, reftime=0x00000000.00000000, poll=6,
+clock=0xDDFF22F9.C388A833, state=1, offset=0.000, frequency=0.000,
+jitter=0.000, noise=0.000, stability=0.000 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0129CD" IPAddress="10.1.41.205" />
+</AddressesFound>
+</Host>
+</HostData>
+</ROOT>

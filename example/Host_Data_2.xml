@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT xmlns:rsd="urn:www.mcafee.com:foundstone:reportsectiondescription">
+<ReportInfo CreationDate="2018-01-16 10:50:03 UTC" ReportType="Network Inventory" />
+<Jobs JobID="467" ScanName="quetTT3_chieu_160118_3" ScanType="Internal" StartTime="2018-01-16 10:35:00 UTC" EndTime="2018-01-16 10:48:07 UTC" TestJob="0" />
+<HostData>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B1A0B" IPAddress="10.11.26.11" OSName="Cisco IOS 12.2(50)SE5" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B1A0B" IPAddress="10.11.26.11" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B1A0D" IPAddress="10.11.26.13" OSName="Cisco IOS 12.2(50)SE5" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B1A0D" IPAddress="10.11.26.13" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B1A0A" IPAddress="10.11.26.10" OSName="Cisco IOS 12.2(50)SE5" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B1A0A" IPAddress="10.11.26.10" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B2208" IPAddress="10.11.34.8" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B2208" IPAddress="10.11.34.8" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B2205" IPAddress="10.11.34.5" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B2205" IPAddress="10.11.34.5" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B2207" IPAddress="10.11.34.7" OSName="Cisco IOS 12.2(55)SE7" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B2207" IPAddress="10.11.34.7" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B2209" IPAddress="10.11.34.9" OSName="Cisco IOS 12.2" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="snmp">
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Banner><![CDATA[ Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), Version 12.2(50)SE5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 28-Sep-10 13:44 by prod_rel_team ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="445" VulnName="SNMP Default Community Name">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A SNMP community name is set to the default value (e.g. public or private).</Description><CVE>CVE-1999-0472</CVE>
+</Vuln>
+<Vuln id="6860" VulnName="SNMP Server With SNMPv1 Enabled">
+<Risk>0</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>The target host is running an SNMP server with SNMPv1 enabled.</Description></Vuln>
+<Vuln id="6861" VulnName="SNMP Server With SNMPv2 Enabled">
+<Risk>0</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>The target host is running an SNMP server with SNMPv2 enabled.</Description></Vuln>
+<Vuln id="6862" VulnName="SNMP Server With SNMPv3 Enabled">
+<Risk>0</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>The target host is running an SNMP server with SNMPv3 enabled.</Description></Vuln>
+<Vuln id="7694" VulnName="SNMP Remote Host General Information">
+<Risk>0</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>General information about the remote host was obtained via SNMP.</Description></Vuln>
+<Vuln id="7720" VulnName="SNMP ARP Table Information">
+<Risk>0</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>ARP table information was obtained from the SNMP server.</Description></Vuln>
+<Vuln id="12073" VulnName="Cisco IOS Unclear Public key Cache Information Disclosure">
+<Risk>5</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>An information disclosure vulnerability exists in some versions of Cisco IOS.</Description><CVE>CVE-2010-4685</CVE>
+</Vuln>
+<Vuln id="12091" VulnName="Cisco IOS TFTP Debugging Denial Of Service Vulnerability">
+<Risk>7</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2010-4684</CVE>
+</Vuln>
+<Vuln id="12093" VulnName="Cisco IOS CallManager Express Memory Consumption Denial Of Service">
+<Risk>8</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability exists in some versions of Cisco IOS. </Description><CVE>CVE-2010-4686</CVE>
+</Vuln>
+<Vuln id="12094" VulnName="Cisco IOS STCAPP Denial Of Service Vulnerability">
+<Risk>5</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2010-4687</CVE>
+</Vuln>
+<Vuln id="12106" VulnName="Cisco IOS IPv6 Router Advertisement Denial Of Service">
+<Risk>7</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is prsent in some versions of Cisco IOS.</Description><CVE>CVE-2010-4671</CVE>
+</Vuln>
+<Vuln id="12767" VulnName="Cisco IOS Software NetMeeting Directory LDAP Network Address Translation Processing Denial of Service">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-0946</CVE>
+</Vuln>
+<Vuln id="12769" VulnName="Cisco IOS Software Session Initiation Protocol Network Address Translation Denial of Service">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-3276</CVE>
+</Vuln>
+<Vuln id="12771" VulnName="Cisco IOS Software H.323 Packet Network Address Translation Denial of Service">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-3277</CVE>
+</Vuln>
+<Vuln id="12773" VulnName="Cisco IOS Software Session Initiation Protocol UDP Packet Network Address Translation Denial of Service">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-3278</CVE>
+</Vuln>
+<Vuln id="12775" VulnName="Cisco IOS Software MPLS Packet Network Address Translation Denial of Service">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-3279</CVE>
+</Vuln>
+<Vuln id="12777" VulnName="Cisco IOS Software Session Initiation Protocol UDP Packet Network Address Translation Denial of Service II">
+<Risk>6</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of the Cisco IOS.</Description><CVE>CVE-2011-3280</CVE>
+</Vuln>
+<Vuln id="12902" VulnName="Cisco IOS Ethernet-lldp Component Management Address Denial Of Service">
+<Risk>8</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2011-1640 </CVE>
+</Vuln>
+<Vuln id="13480" VulnName="Cisco IOS Multicast Source Discovery Protocol Remote Denial Of Service">
+<Risk>7</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A vulnerability in the Multicast Source Discovery Protocol (MSDP) implementation of Cisco IOS Software and Cisco IOS XE Software could allow a remote, unauthenticated attacker to cause a denial of service condition.</Description><CVE>CVE-2012-0382</CVE>
+</Vuln>
+<Vuln id="13482" VulnName="Cisco IOS Authorization Security Bypass Denial Of Service">
+<Risk>7</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A vulnerability in the Cisco IOS Software could allow a remote, unauthenticated attacker to cause a denial of service condition.</Description><CVE>CVE-2012-0384</CVE>
+</Vuln>
+<Vuln id="13496" VulnName="Cisco IOS Smart Install Feature Remote Denial Of Service">
+<Risk>7</Risk>
+<ServiceName>snmp</ServiceName>
+<Port>161</Port>
+<Protocol>udp</Protocol>
+<Description>A vulnerability in the Cisco IOS Software could allow a remote, unauthenticated attacker to cause a denial of service condition.</Description><CVE>CVE-2012-0385</CVE>
+</Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B2209" IPAddress="10.11.34.9" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B220B" IPAddress="10.11.34.11" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B220B" IPAddress="10.11.34.11" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B0005" IPAddress="10.11.0.5" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B0005" IPAddress="10.11.0.5" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B0A07" IPAddress="10.11.10.7" OSName="Cisco IOS 12.2(55)SE7" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B0A07" IPAddress="10.11.10.7" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A018002" IPAddress="10.1.128.2" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A018002" IPAddress="10.1.128.2" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A018049" IPAddress="10.1.128.73" OSName="Cisco IOS 12.2(55)SE10" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A018049" IPAddress="10.1.128.73" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A018003" IPAddress="10.1.128.3" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A018003" IPAddress="10.1.128.3" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A018051" IPAddress="10.1.128.81" OSName="Cisco IOS 12.2(55)SE5" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-1.99-Cisco-1.25 ]]></Banner>
+</Service>
+<Service ServiceName="telnet">
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ User Access Verification
+
+Username: ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+<Vuln id="11200" VulnName="SSH Protocol Supported Versions Detected">
+<Risk>0</Risk>
+<ServiceName>ssh</ServiceName>
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Description>SSH protocol supported version was detected on the host.</Description></Vuln>
+<Vuln id="14909" VulnName="Cisco IOS Software Smart Install Denial of Service">
+<Risk>9</Risk>
+<ServiceName>telnet</ServiceName>
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2013-1146</CVE>
+</Vuln>
+<Vuln id="18665" VulnName="Syslog Service Is Not Running">
+<Risk>0</Risk>
+<ServiceName>telnet</ServiceName>
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Description>Syslog service is not running on target system.</Description></Vuln>
+<Vuln id="21699" VulnName="Cisco IOS Software Layer 2 Tunneling Protocol Denial of Service Vulnerability">
+<Risk>7</Risk>
+<ServiceName>telnet</ServiceName>
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Description>A denial of service vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2017-3857</CVE>
+</Vuln>
+<Vuln id="22105" VulnName="Cisco IOS Software SNMP Remote Code Execution Vulnerability (CSCve89865)">
+<Risk>10</Risk>
+<ServiceName>telnet</ServiceName>
+<Port>23</Port>
+<Protocol>tcp</Protocol>
+<Description>A vulnerability is present in some versions of Cisco IOS.</Description><CVE>CVE-2017-6738</CVE>
+</Vuln>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A018051" IPAddress="10.1.128.81" />
+</AddressesFound>
+</Host>
+<Host AssetLabel="" IPDword="00000000000000000000FFFF0A0B1E05" IPAddress="10.11.30.5" OSName="Cisco IOS 12.x" DNSName="" NBName="[Unknown]" NBWorkGroupName="">
+<ServicesFound>
+<Service ServiceName="ssh">
+<Port>22</Port>
+<Protocol>tcp</Protocol>
+<Banner><![CDATA[ SSH-2.0-Cisco-1.25 ]]></Banner>
+</Service>
+</ServicesFound>
+<VulnsFound>
+</VulnsFound>
+<AddressesFound>
+<Address IPDword="00000000000000000000FFFF0A0B1E05" IPAddress="10.11.30.5" />
+</AddressesFound>
+</Host>
+</HostData>
+</ROOT>
